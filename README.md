@@ -1,17 +1,7 @@
-<h1>Welcome to HTML and CSS</h1>
-<!DOCTYPE html>
-<html>
-<head>
-<title>Login Form</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<form action="login.php" method="post">
-<label for="username">Username:</label>
-<input type="text" id="username" name="username" placeholder="Enter your username" required>
-<label for="password">Password:</label>
-<input type="password" id="password" name="password" placeholder="Enter your password" required>
-<button type="submit" id="submit">Login</button>
-</form>
-</body>
-</html>
+echo "# simple" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Akash-01898/simple.git
+git push -u origin main
